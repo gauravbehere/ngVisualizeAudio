@@ -15,8 +15,11 @@ How it works:
 
 2. Create a method in your controller, which makes the CSS properties ready for the data bound animation using your template:
    $scope.animationFunction = function(){
+   
    //edit your modal here for which CSS properties are going to change
+   
    }
+   
    Check out example in the demo.
    
 3. Create a custom template which uses the modal values bound to its CSS properties.
