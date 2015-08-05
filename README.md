@@ -12,7 +12,7 @@ How it works:
 
 Just add "visualizeaudio" as attribute or add it as a tag, provide a audio source file.
 
-<b><div visualizeAudio src="data/Jonsong.mp3"></div> </b>
+<div visualizeAudio src="data/Jonsong.mp3"></div>
 
 
 
