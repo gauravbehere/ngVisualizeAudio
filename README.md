@@ -10,6 +10,12 @@ Based on HTML5's Audio APIs and angular's data binding.
 
 How it works:
 
+Just add "visualizeaudio" as attribute or add it as a tag, provide a audio source file.
+
+<b><div visualizeAudio src="data/Jonsong.mp3"></div> </b>
+
+
+
 1. Inject "ng-visualizeAudio" as dependency in your module :
    angular.module("ngVisualizeAudioDemo", ['ng-visualizeAudio'])
 
