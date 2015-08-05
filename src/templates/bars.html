@@ -1,0 +1,16 @@
+<div id="player">
+
+    <div class="seek">
+        <div id="playBtn" class="pause" ng-class="{'play': isAudioPlaying == false }" ng-click="playPauseToggle()"></div>
+        <input type="range" class="horizontalSlider" name="progress" ng-model="currentTime.seek" id="progress" min="0"
+               max="{{audioDuration}}" ng-change="progressChange();" value="{{currentTime.seek}}"> <span id="progressTime">{{currentTime.seek}}</span>
+    </div>
+</div>
+
+<div id='spectrumContainer'>
+    <div class='barContainerTop' id="barContainerTop">
+        <div ng-repeat='bar in bars track by $index' class='dataBoundBar'
+             ng-style="{'padding-top' : bars[$index].height,left: bars[$index].left}"></div>
+    </div>
+</div>
+
