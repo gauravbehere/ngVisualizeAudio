@@ -32,10 +32,10 @@ Just add "visualizeaudio" as attribute or add it as a tag, provide a audio sourc
    //audio spectrum array is passed as parameter, using which CSS properties are modified.
    }
 ```
-   
-   Check out example in the demo.
+Check out example in the demo.
    
 3. Create a custom template which uses the modal values bound to its CSS properties.
+
    eg: Check sample template here : https://github.com/gauravbehere/ngVisualizeAudio/tree/master/src/templates
    
    PS: Player controls - seek, progress, and play/pause buttons are added in the same template, which can be put into a different template.
