@@ -2,6 +2,8 @@
 ngVisualizeAudio.jS
 Copyright (c) 2015 Gaurav Behere
 Licensed as MIT 
+
+
 -------------------------------
 
 Angular directive to play and visualize audio
@@ -31,7 +33,8 @@ Just add "visualizeaudio" as attribute or add it as a tag, provide a audio sourc
    Check out example in the demo.
    
 3. Create a custom template which uses the modal values bound to its CSS properties.
-   eg: Check sample template here : 
+   eg: Check sample template here : https://github.com/gauravbehere/ngVisualizeAudio/tree/master/src/templates
+   
    PS: Player controls - seek, progress, and play/pause buttons are added in the same template, which can be put into a different template.
 
 
