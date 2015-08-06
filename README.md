@@ -29,7 +29,7 @@ Just add "visualizeaudio" as attribute or add it as a tag, provide a audio sourc
    $scope.animationFunction = function(){
    //edit your modal here for which CSS properties are going to change   
    //This method will be called in request animation frame till the audio is playing, 
-   audio spectrum array is passed as parameter, using which CSS properties are modified.
+   //audio spectrum array is passed as parameter, using which CSS properties are modified.
    }
 ```
    
