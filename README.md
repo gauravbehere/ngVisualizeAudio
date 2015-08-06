@@ -24,11 +24,13 @@ Just add "visualizeaudio" as attribute or add it as a tag, provide a audio sourc
    angular.module("ngVisualizeAudioDemo", ['ng-visualizeAudio'])
 
 2. Create a method in your controller, which makes the CSS properties ready for the data bound animation using your template:
+
+```html
    $scope.animationFunction = function(){
-   
-   //edit your modal here for which CSS properties are going to change
-   
+   //edit your modal here for which CSS properties are going to change   
+   //This method will be called in request animation frame till the audio is playing, audio spectrum array is passed as parameter, using which CSS properties are modified.
    }
+```
    
    Check out example in the demo.
    
